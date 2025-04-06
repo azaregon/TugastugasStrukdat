@@ -154,10 +154,10 @@ int main() {
     // printf("%d\n",circIndex(0,'-'));
 
 
+    push(Q,2);
     push(Q,1);
     // printf("%d ",Q->tail);
-    printf("\n%d %d %d\n",Q->head,Q->tail,Q->isFull);
-    push(Q,2);
+    // printf("\n%d %d %d\n",Q->head,Q->tail,Q->isFull);
     // printf("%d ",Q->tail);
     push(Q,3);
     push(Q,4);
@@ -172,30 +172,30 @@ int main() {
     push(Q,10);
     push(Q,11);
     
-    for (int i = 0; i < 10; i++) {
-        printf("%d ",Q->arr[i]);
-    }
+    // for (int i = 0; i < 10; i++) {
+    //     printf("%d ",Q->arr[i]);
+    // }
     // printf("\n%d %d\n",Q->head,Q->tail);
     
 
 
-    printf("search: %d\n", search(Q,8));
+    printf("search result: %d\n", search(Q,8));
     
-    for (int i = 0; i < 10; i++) {
-        printf("%d ",Q->arr[i]);
-    }
+    // for (int i = 0; i < 10; i++) {
+    //     printf("%d ",Q->arr[i]);
+    // }
     
-    printf("\n%d %d\n",Q->head,Q->tail);
+    // printf("\n%d %d\n",Q->head,Q->tail);
 
 
 
     edit(Q,8,90);
     
-    for (int i = 0; i < 10; i++) {
-        printf("%d ",Q->arr[i]);
-    }
+    // for (int i = 0; i < 10; i++) {
+    //     printf("%d ",Q->arr[i]);
+    // }
     
-    printf("\n%d %d\n",Q->head,Q->tail);
+    // printf("\n%d %d\n",Q->head,Q->tail);
     
 
 
@@ -205,7 +205,7 @@ int main() {
         printf("%d ",Q->arr[i]);
     }
     
-    printf("\n%d %d\n",Q->head,Q->tail);
+    // printf("\n%d %d\n",Q->head,Q->tail);
     
     // printf("\n%d ",Q->tail);
 
