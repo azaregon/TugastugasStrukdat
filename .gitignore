@@ -1,1 +1,5 @@
 .vscode
+*.cph
+.cph/
+/.cph
+.cph
